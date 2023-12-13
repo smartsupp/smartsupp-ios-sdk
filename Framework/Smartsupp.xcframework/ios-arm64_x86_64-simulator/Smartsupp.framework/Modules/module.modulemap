@@ -1,0 +1,11 @@
+framework module Smartsupp {
+  umbrella header "Smartsupp.h"
+  export *
+
+  module * { export * }
+}
+
+module Smartsupp.Swift {
+  header "Smartsupp-Swift.h"
+  requires objc
+}

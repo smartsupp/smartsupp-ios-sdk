@@ -1,0 +1,100 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Smartsupp
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Dispatch
+import Foundation
+@_exported import Smartsupp
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+extension SwiftUI.View {
+  public func smartsupp() -> some SwiftUI.View
+  
+}
+public struct SmartsuppOptions {
+  public init(apiKey: Swift.String, accountKey: Swift.String)
+}
+public enum SmartsuppShowResult {
+  case success
+  case error(any Swift.Error)
+}
+@_hasMissingDesignatedInitializers public class MulticastDelegate<T> {
+  public func add(_ delegate: T)
+  public func remove(_ delegate: T)
+  public func invoke(_ invocation: (T) -> Swift.Void)
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+#warning("Production URLs")
+#warning("Support for UIKit")
+#warning("Optimize for dark mode and other accessibility settings")
+#warning("Proper package setup - https://docs.swift.org/package-manager/PackageDescription/PackageDescription.html")
+#warning("Document code")
+#warning("Tests")
+#warning("Localize")
+#warning("Support for Mac Catalyst")
+#warning("Support for iOS 14.0")
+#warning("Finish binary generation script")
+#warning("Move Starscream.xcframework to the Dependencies folder")
+#warning("Download custom branch of SocketIO library with all public and open declarations removed")
+#warning("Move SocketIO Source to the Dependencies folder")
+@_hasMissingDesignatedInitializers public class Smartsupp {
+  public typealias ShowCallback = (SmartsuppShowResult) -> Swift.Void
+  public static var shared: Smartsupp {
+    get
+  }
+  final public let state: SmartsuppState
+  public static func setup(withOptions options: SmartsuppOptions)
+  public static func identifyUser(name: Swift.String? = nil, email: Swift.String? = nil, phone: Swift.String? = nil, variables: [Swift.String : Swift.String]? = nil)
+  public static func openChatBox(completionHandler: @escaping ShowCallback)
+  @objc deinit
+}
+public protocol SmartsuppStateDelegate : AnyObject {
+  func smartsuppState(unreadMessages: Swift.Int)
+  func smartsuppState(status: AccountStatus)
+  func smartsuppState(userIsBlocked: Swift.Bool)
+}
+extension SmartsuppStateDelegate {
+  public func smartsuppState(unreadMessages: Swift.Int)
+  public func smartsuppState(status: AccountStatus)
+  public func smartsuppState(userIsBlocked: Swift.Bool)
+}
+@_hasMissingDesignatedInitializers public class SmartsuppState {
+  public var unreadMessages: Swift.Int {
+    get
+  }
+  public var status: AccountStatus {
+    get
+  }
+  public var userIsBlocked: Swift.Bool {
+    get
+  }
+  final public let delegate: MulticastDelegate<any SmartsuppStateDelegate>
+  public static var `default`: SmartsuppState {
+    get
+  }
+  @objc deinit
+}
+public enum AccountStatus : Swift.String, Swift.Decodable {
+  case offline
+  case online
+  public var isOnline: Swift.Bool {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension AccountStatus : Swift.Equatable {}
+extension AccountStatus : Swift.Hashable {}
+extension AccountStatus : Swift.RawRepresentable {}

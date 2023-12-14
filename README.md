@@ -1,1 +1,1 @@
-# smartsupp-ios-sdk
+# smartsupp-sdk-ios

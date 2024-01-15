@@ -33,9 +33,7 @@ public enum SmartsuppShowResult {
   }
   @objc deinit
 }
-#warning("Production URLs")
 #warning("Support for UIKit")
-#warning("Optimize for dark mode and other accessibility settings")
 #warning("Proper package setup - https://docs.swift.org/package-manager/PackageDescription/PackageDescription.html")
 #warning("Document code")
 #warning("Tests")

@@ -10,17 +10,15 @@
 		66609A052AE29B1A00D8F84F /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66609A042AE29B1A00D8F84F /* ExampleApp.swift */; };
 		66609A072AE29B1A00D8F84F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66609A062AE29B1A00D8F84F /* ContentView.swift */; };
 		66609A092AE29B1B00D8F84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66609A082AE29B1B00D8F84F /* Assets.xcassets */; };
-		66609A0C2AE29B1B00D8F84F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66609A0B2AE29B1B00D8F84F /* Preview Assets.xcassets */; };
 		66F55D002AEFD2360078C84E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F55CFF2AEFD2360078C84E /* ContentViewModel.swift */; };
 		66FD5E522B29A1FA0066DBAA /* Smartsupp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		66609A012AE29B1A00D8F84F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66609A012AE29B1A00D8F84F /* Smartsupp SDK SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smartsupp SDK SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66609A042AE29B1A00D8F84F /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		66609A062AE29B1A00D8F84F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66609A082AE29B1B00D8F84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66609A0B2AE29B1B00D8F84F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66F55CFF2AEFD2360078C84E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:SGN7UDA4H8:Smartsupp.com, s.r.o."; lastKnownFileType = wrapper.xcframework; name = Smartsupp.xcframework; path = ../Framework/Smartsupp.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +35,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663D436E2B557125005D0F79 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				66609A062AE29B1A00D8F84F /* ContentView.swift */,
+				66F55CFF2AEFD2360078C84E /* ContentViewModel.swift */,
+				66609A042AE29B1A00D8F84F /* ExampleApp.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		666099F82AE29B1A00D8F84F = {
 			isa = PBXGroup;
 			children = (
@@ -50,7 +58,7 @@
 		66609A022AE29B1A00D8F84F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66609A012AE29B1A00D8F84F /* Example.app */,
+				66609A012AE29B1A00D8F84F /* Smartsupp SDK SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,21 +66,10 @@
 		66609A032AE29B1A00D8F84F /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				663D436E2B557125005D0F79 /* SwiftUI */,
 				66609A082AE29B1B00D8F84F /* Assets.xcassets */,
-				66609A062AE29B1A00D8F84F /* ContentView.swift */,
-				66F55CFF2AEFD2360078C84E /* ContentViewModel.swift */,
-				66609A042AE29B1A00D8F84F /* ExampleApp.swift */,
-				66609A0A2AE29B1B00D8F84F /* Preview Content */,
 			);
 			path = Example;
-			sourceTree = "<group>";
-		};
-		66609A0A2AE29B1B00D8F84F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				66609A0B2AE29B1B00D8F84F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		66609A152AE29BED00D8F84F /* Frameworks */ = {
@@ -85,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66609A002AE29B1A00D8F84F /* Example */ = {
+		66609A002AE29B1A00D8F84F /* Smartsupp SDK SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66609A0F2AE29B1B00D8F84F /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 66609A0F2AE29B1B00D8F84F /* Build configuration list for PBXNativeTarget "Smartsupp SDK SwiftUI" */;
 			buildPhases = (
 				666099FD2AE29B1A00D8F84F /* Sources */,
 				666099FE2AE29B1A00D8F84F /* Frameworks */,
@@ -97,11 +94,11 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = "Smartsupp SDK SwiftUI";
 			packageProductDependencies = (
 			);
 			productName = Example;
-			productReference = 66609A012AE29B1A00D8F84F /* Example.app */;
+			productReference = 66609A012AE29B1A00D8F84F /* Smartsupp SDK SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66609A002AE29B1A00D8F84F /* Example */,
+				66609A002AE29B1A00D8F84F /* Smartsupp SDK SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +139,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66609A0C2AE29B1B00D8F84F /* Preview Assets.xcassets in Resources */,
 				66609A092AE29B1B00D8F84F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +285,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -319,7 +314,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -354,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66609A0F2AE29B1B00D8F84F /* Build configuration list for PBXNativeTarget "Example" */ = {
+		66609A0F2AE29B1B00D8F84F /* Build configuration list for PBXNativeTarget "Smartsupp SDK SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66609A102AE29B1B00D8F84F /* Debug */,

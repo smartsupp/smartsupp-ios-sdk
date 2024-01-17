@@ -20,7 +20,7 @@ extension SwiftUI.View {
 public struct SmartsuppOptions {
   public init(apiKey: Swift.String, accountKey: Swift.String)
 }
-public enum SmartsuppShowResult {
+@frozen public enum SmartsuppShowResult {
   case success
   case error(any Swift.Error)
 }
@@ -33,7 +33,6 @@ public enum SmartsuppShowResult {
   }
   @objc deinit
 }
-#warning("Support for UIKit")
 #warning("Proper package setup - https://docs.swift.org/package-manager/PackageDescription/PackageDescription.html")
 #warning("Document code")
 #warning("Tests")
@@ -53,6 +52,7 @@ public enum SmartsuppShowResult {
   public static func setup(withOptions options: Smartsupp.SmartsuppOptions)
   public static func identifyUser(name: Swift.String? = nil, email: Swift.String? = nil, phone: Swift.String? = nil, variables: [Swift.String : Swift.String]? = nil)
   public static func openChatBox(completionHandler: @escaping Smartsupp.Smartsupp.ShowCallback)
+  public static func openChatBox(from viewController: UIKit.UIViewController, completionHandler: @escaping Smartsupp.Smartsupp.ShowCallback)
   @objc deinit
 }
 public protocol SmartsuppStateDelegate : AnyObject {
@@ -93,6 +93,7 @@ public enum AccountStatus : Swift.String, Swift.Decodable {
     get
   }
 }
+extension Smartsupp.SmartsuppShowResult : Swift.Sendable {}
 extension Smartsupp.AccountStatus : Swift.Equatable {}
 extension Smartsupp.AccountStatus : Swift.Hashable {}
 extension Smartsupp.AccountStatus : Swift.RawRepresentable {}

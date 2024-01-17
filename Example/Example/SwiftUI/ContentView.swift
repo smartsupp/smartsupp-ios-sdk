@@ -67,7 +67,7 @@ struct ContentView: View {
         Button(action: {
             viewModel.openChatBox()
         }, label: {
-            Text("Open Chat Box")
+            Text("Open chat box")
         })
     }
 }

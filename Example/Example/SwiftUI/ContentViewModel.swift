@@ -13,7 +13,7 @@ class ContentViewModel: ObservableObject {
     @Published var unreadCount: Int
     
     init() {
-        self.isOnline = false
+        self.isOnline = Smartsupp.shared.state.status.isOnline
         self.unreadCount = Smartsupp.shared.state.unreadMessages
         
         // Listen for changes in unread messages, account status and whether the use was blocked or unblocked

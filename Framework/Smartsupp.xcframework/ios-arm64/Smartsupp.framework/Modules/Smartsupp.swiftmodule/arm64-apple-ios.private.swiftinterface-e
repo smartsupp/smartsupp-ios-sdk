@@ -2,8 +2,10 @@
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Smartsupp
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
 import Dispatch
 import Foundation
+import Network
 @_exported import Smartsupp
 import Swift
 import SwiftUI
@@ -13,6 +15,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+import zlib
 extension SwiftUI.View {
   public func smartsupp() -> some SwiftUI.View
   
@@ -34,6 +37,7 @@ public struct SmartsuppOptions {
   @objc deinit
 }
 #warning("Proper package setup - https://docs.swift.org/package-manager/PackageDescription/PackageDescription.html")
+#warning("Don't sign the library")
 #warning("Document code")
 #warning("Tests")
 #warning("Localize")

@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		9SD98ISV5wxBIQCRji3kD1N8d0o=
+		</data>
 		<key>Headers/Smartsupp-Swift.h</key>
 		<data>
-		IOBw0JhM4FkammLRCDRCH3iYros=
+		hR1Zb0h7D1ateZYITubmylBxRZ0=
 		</data>
 		<key>Headers/Smartsupp.h</key>
 		<data>
@@ -14,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GCnh7+iBz4/rn9gkidn4QaWu+LM=
+		XhqxU7PU+7Ok6GldQIVmJzeZ+1o=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9VVPfP8dmz6pskWOxbEg8H8P9RM=
+		HtuwPupHGMS4i8KoSu4eY8Si3i0=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gMDskHVGf2TgzlDTrIlXe/jqBjE=
+		Elh3JuBBJcSQuFnuqx6KrTd3Ox4=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +34,19 @@
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gMDskHVGf2TgzlDTrIlXe/jqBjE=
+		Elh3JuBBJcSQuFnuqx6KrTd3Ox4=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TL9ZsOGiep0s0GAS6yKyjcbmNLg=
+		gCruxB1KtIRuGVd9ck0oXyrEddY=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9VVPfP8dmz6pskWOxbEg8H8P9RM=
+		HtuwPupHGMS4i8KoSu4eY8Si3i0=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l7reLyV8H7HmSv+aesXHG6NV3DI=
+		TXMwmvkuvMFYolhXLkoYYXESC7Q=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,24 +54,103 @@
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l7reLyV8H7HmSv+aesXHG6NV3DI=
+		TXMwmvkuvMFYolhXLkoYYXESC7Q=
 		</data>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lqsVJDZdOrvmClSdKI1X8cP3YZ0=
+		fD5/0FCeKrBrrBIKD9s8hqWWF0c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		AEuww4E5SEcxgTfLlOZmwqWxpNo=
 		</data>
+		<key>cs.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3+5la1jkoWPuqCF/Q9JEYYIhNSk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L1k66vFTwqy1XcKNfEoWm6bzYTQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WJqbC/G33Iig6rbHtVXjwzYggKk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cShwCWvZybLudp2x0kPCVDJajPM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			71KTUxXgLbjFLhDJJ2OHHuMF4ho=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F4rLjbLqz9R6RsHkt+SfGujNRGE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DMkCnJZXrSdKCIJL8/81BfZcaNg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>sk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3+5la1jkoWPuqCF/Q9JEYYIhNSk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XXwXOLlu+RaB46v0y4cipqKjSPYaJtmgZUIKUYRpYBM=
+			</data>
+		</dict>
 		<key>Headers/Smartsupp-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vnfBMnX3cE8ugFe+u9GZUV+GVsQlJNEnLabPSqma8X8=
+			JTlC1nVgb2TD1+0FjdJOZnKzy0wusj5oC2VQ+Xg0PQE=
 			</data>
 		</dict>
 		<key>Headers/Smartsupp.h</key>
@@ -81,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6me6C7gAub4DPIP4Sci/r++ohKiMfR2mlqYzRXq8J2U=
+			7di0GOfNmwxVWFxXPnE/YTJzgFssPXDwfROS13Q+9Bs=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wezBcp1euHgAi3Hq8uJs6zIvLFLY6gtBLImBBXHufx0=
+			XDr76xwCbP3tCtI8/vxoi0E7vAwEc5V97VEeCf6Wtj4=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +185,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wezBcp1euHgAi3Hq8uJs6zIvLFLY6gtBLImBBXHufx0=
+			XDr76xwCbP3tCtI8/vxoi0E7vAwEc5V97VEeCf6Wtj4=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7mE6nNuHNBt6DpwnBZq06KhinEtXCSOARDOXsvuXsIE=
+			Cjc6BF2tFnjNuA/c+HQabmWbxdsdEuEaFq4SPp/immE=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6me6C7gAub4DPIP4Sci/r++ohKiMfR2mlqYzRXq8J2U=
+			7di0GOfNmwxVWFxXPnE/YTJzgFssPXDwfROS13Q+9Bs=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bcsNvY76TNbMYuhfxCqaLwUs/1m2vSEf4GRVmTdWWCk=
+			q7Kw+CVF71wmTl2NehzDZKlL3j8XTay4PmQ4yi6xKQI=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +220,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bcsNvY76TNbMYuhfxCqaLwUs/1m2vSEf4GRVmTdWWCk=
+			q7Kw+CVF71wmTl2NehzDZKlL3j8XTay4PmQ4yi6xKQI=
 			</data>
 		</dict>
 		<key>Modules/Smartsupp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dBq995RI+OqJeZDlHFQsVuGAZ72bLlW45aZQ3rQ05gc=
+			3P8S2advCP6yXahcnnrNZnFwrkLs/s0Rwi8ZlI+Hjr0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -153,6 +236,78 @@
 			<data>
 			XO83b/wvTT4xFsQKu5sb+CQR+MQckqpPZCBwD1xxVqA=
 			</data>
+		</dict>
+		<key>cs.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AnI+clg8nZawftwLmrtEftfBPPgVtWMTDRDwO2axJRk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PAjfPtb0r3j9UWxA2MDY+P7sHgKNhdR65d+zmKNMAsE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w/UtZYJ1nt9U0OoF4H18gIUFtJUeZ6kQFfbu2dLfV64=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ysxSaRYJz0j4KsdSwBBOUuw3B7YpgSQ+lUYNk6DEqbk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwn4L2AQUg2w3V9aVIrQojmWv9J+mWZDV95i8XAWRV4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FprWGW0gGB7vtGFmbM7yoGpeYavhegyTBRdzyZ3fbJw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3Ein7G5IsXbNRPpz3Z6rGTYM8S5FL/cZQYKh2NBS1UI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>sk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AnI+clg8nZawftwLmrtEftfBPPgVtWMTDRDwO2axJRk=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

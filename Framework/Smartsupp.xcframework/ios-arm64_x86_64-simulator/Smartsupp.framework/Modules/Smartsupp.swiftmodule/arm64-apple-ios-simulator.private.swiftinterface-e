@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Smartsupp
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
+import DeveloperToolsSupport
 import Dispatch
 import Foundation
 import Network
@@ -16,6 +17,16 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 import zlib
+public protocol SmartsuppStateDelegate : AnyObject {
+  func smartsuppState(unreadMessages: Swift.Int)
+  func smartsuppState(status: Smartsupp.AccountStatus)
+  func smartsuppState(userIsBlocked: Swift.Bool)
+}
+extension Smartsupp.SmartsuppStateDelegate {
+  public func smartsuppState(unreadMessages: Swift.Int)
+  public func smartsuppState(status: Smartsupp.AccountStatus)
+  public func smartsuppState(userIsBlocked: Swift.Bool)
+}
 extension SwiftUI.View {
   public func smartsupp() -> some SwiftUI.View
   
@@ -58,16 +69,6 @@ public struct SmartsuppOptions {
   public static func openChatBox(completionHandler: @escaping Smartsupp.Smartsupp.ShowCallback)
   public static func openChatBox(from viewController: UIKit.UIViewController, completionHandler: @escaping Smartsupp.Smartsupp.ShowCallback)
   @objc deinit
-}
-public protocol SmartsuppStateDelegate : AnyObject {
-  func smartsuppState(unreadMessages: Swift.Int)
-  func smartsuppState(status: Smartsupp.AccountStatus)
-  func smartsuppState(userIsBlocked: Swift.Bool)
-}
-extension Smartsupp.SmartsuppStateDelegate {
-  public func smartsuppState(unreadMessages: Swift.Int)
-  public func smartsuppState(status: Smartsupp.AccountStatus)
-  public func smartsuppState(userIsBlocked: Swift.Bool)
 }
 @_hasMissingDesignatedInitializers public class SmartsuppState {
   public var unreadMessages: Swift.Int {

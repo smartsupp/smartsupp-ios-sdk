@@ -51,7 +51,6 @@ public struct SmartsuppOptions {
 #warning("Don't sign the library")
 #warning("Document code")
 #warning("Tests")
-#warning("Localize")
 #warning("Support for Mac Catalyst")
 #warning("Support for iOS 14.0")
 #warning("Finish binary generation script")

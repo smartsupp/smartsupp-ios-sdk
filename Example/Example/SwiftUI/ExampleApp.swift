@@ -22,6 +22,8 @@ struct ExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            // View needs to apply this modifier for the widget to open
+            .smartsupp()
         }
     }
 }

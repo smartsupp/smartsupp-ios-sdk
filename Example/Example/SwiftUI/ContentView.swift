@@ -29,8 +29,6 @@ struct ContentView: View {
                 Text("Actions")
             })
         }
-        // View needs to apply this modifier for the widget to open
-        .smartsupp()
     }
     
     private var unreadMessages: some View {

@@ -35,7 +35,7 @@ class ContentViewModel: ObservableObject {
     
     // Open chat box
     func openChatBox() {
-        Smartsupp.openChatBox() {
+        Smartsupp.openChatBox {
             switch $0 {
             case .success:
                 print("Chatbox was opened")

@@ -46,9 +46,9 @@ extension ViewController: AppViewDelegate {
         Smartsupp.openChatBox(from: self) {
             switch $0 {
             case .success:
-                break
-            case .error:
-                break
+                print("Chatbox was opened")
+            case .error(let error):
+                print("Failed to open the Chatbox - \(error.localizedDescription)")
             }
         }
     }

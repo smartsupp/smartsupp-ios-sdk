@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,14 @@
 		66609A072AE29B1A00D8F84F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66609A062AE29B1A00D8F84F /* ContentView.swift */; };
 		66609A092AE29B1B00D8F84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66609A082AE29B1B00D8F84F /* Assets.xcassets */; };
 		6693A6A42B58080400F5B1F5 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693A6A32B58080400F5B1F5 /* AppView.swift */; };
-		66AD690B2B558122008B686A /* Smartsupp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */; };
+		66A592482B765D6700C98C1D /* Smartsupp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A592472B765D6700C98C1D /* Smartsupp.xcframework */; };
+		66A5924A2B765D9900C98C1D /* Smartsupp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A592472B765D6700C98C1D /* Smartsupp.xcframework */; };
+		66A5924B2B765D9900C98C1D /* Smartsupp.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66A592472B765D6700C98C1D /* Smartsupp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		66AD690D2B558122008B686A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66609A082AE29B1B00D8F84F /* Assets.xcassets */; };
 		66AD69342B558312008B686A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD69332B558312008B686A /* AppDelegate.swift */; };
 		66AD69362B558329008B686A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD69352B558329008B686A /* SceneDelegate.swift */; };
 		66AD69382B55833C008B686A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD69372B55833C008B686A /* ViewController.swift */; };
-		66AD695C2B568B71008B686A /* Smartsupp.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		66AD695E2B568B8A008B686A /* Smartsupp.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		66F55D002AEFD2360078C84E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F55CFF2AEFD2360078C84E /* ContentViewModel.swift */; };
-		66FD5E522B29A1FA0066DBAA /* Smartsupp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				66AD695C2B568B71008B686A /* Smartsupp.xcframework in CopyFiles */,
+				66A5924B2B765D9900C98C1D /* Smartsupp.xcframework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				66AD695E2B568B8A008B686A /* Smartsupp.xcframework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,13 +49,13 @@
 		66609A062AE29B1A00D8F84F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66609A082AE29B1B00D8F84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6693A6A32B58080400F5B1F5 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		66A592472B765D6700C98C1D /* Smartsupp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Smartsupp.xcframework; path = ../../Framework/Smartsupp.xcframework; sourceTree = "<group>"; };
 		66AD69112B558122008B686A /* Smartsupp SDK UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smartsupp SDK UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AD69332B558312008B686A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66AD69352B558329008B686A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		66AD69372B55833C008B686A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66AD69592B56733C008B686A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F55CFF2AEFD2360078C84E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:SGN7UDA4H8:Smartsupp.com, s.r.o."; lastKnownFileType = wrapper.xcframework; name = Smartsupp.xcframework; path = ../Framework/Smartsupp.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FD5E522B29A1FA0066DBAA /* Smartsupp.xcframework in Frameworks */,
+				66A592482B765D6700C98C1D /* Smartsupp.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66AD690B2B558122008B686A /* Smartsupp.xcframework in Frameworks */,
+				66A5924A2B765D9900C98C1D /* Smartsupp.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +91,6 @@
 		666099F82AE29B1A00D8F84F = {
 			isa = PBXGroup;
 			children = (
-				66FD5E512B29A1FA0066DBAA /* Smartsupp.xcframework */,
 				66609A032AE29B1A00D8F84F /* Example */,
 				66609A022AE29B1A00D8F84F /* Products */,
 				66609A152AE29BED00D8F84F /* Frameworks */,
@@ -112,6 +109,7 @@
 		66609A032AE29B1A00D8F84F /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				66A592472B765D6700C98C1D /* Smartsupp.xcframework */,
 				66609A082AE29B1B00D8F84F /* Assets.xcassets */,
 				663D436E2B557125005D0F79 /* SwiftUI */,
 				66AD69322B5582F8008B686A /* UIKit */,

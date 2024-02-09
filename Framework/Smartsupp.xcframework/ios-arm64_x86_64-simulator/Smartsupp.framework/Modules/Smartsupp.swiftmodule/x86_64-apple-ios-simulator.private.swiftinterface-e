@@ -47,13 +47,10 @@ public struct SmartsuppOptions {
   }
   @objc deinit
 }
-#warning("Proper package setup - https://docs.swift.org/package-manager/PackageDescription/PackageDescription.html")
-#warning("Don't sign the library")
 #warning("Document code")
 #warning("Tests")
 #warning("Support for Mac Catalyst")
 #warning("Support for iOS 14.0")
-#warning("Finish binary generation script")
 #warning("Move Starscream.xcframework to the Dependencies folder")
 #warning("Download custom branch of SocketIO library with all public and open declarations removed")
 #warning("Move SocketIO Source to the Dependencies folder")

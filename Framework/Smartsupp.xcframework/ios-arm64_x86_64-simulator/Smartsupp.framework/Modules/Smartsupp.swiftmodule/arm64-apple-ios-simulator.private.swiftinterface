@@ -64,6 +64,7 @@ public struct SmartsuppOptions {
   public static func identifyUser(name: Swift.String? = nil, email: Swift.String? = nil, phone: Swift.String? = nil, variables: [Swift.String : Swift.String]? = nil)
   public static func openChatBox(completionHandler: @escaping ShowCallback)
   public static func openChatBox(from viewController: UIKit.UIViewController, completionHandler: @escaping ShowCallback)
+  public static func resetUser()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SmartsuppState {

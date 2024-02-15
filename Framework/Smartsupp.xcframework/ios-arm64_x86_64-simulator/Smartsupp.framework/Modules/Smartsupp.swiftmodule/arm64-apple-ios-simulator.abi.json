@@ -1529,6 +1529,28 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetUser",
+            "printedName": "resetUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SmartsuppAAC9resetUseryyFZ",
+            "mangledName": "$s9SmartsuppAAC9resetUseryyFZ",
+            "moduleName": "Smartsupp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -9165,917 +9187,917 @@
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5262,
-      "length": 5,
-      "value": "5000"
+      "offset": 5270,
+      "length": 6,
+      "value": "15000"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5375,
+      "offset": 5384,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5528,
+      "offset": 5537,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5563,
+      "offset": 5572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5635,
+      "offset": 5644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5718,
+      "offset": 5727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "Array",
-      "offset": 6657,
+      "offset": 6666,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 6736,
+      "offset": 6745,
       "length": 26,
       "value": "\"Engine is being released\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 6809,
+      "offset": 6818,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7019,
+      "offset": 7028,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7314,
+      "offset": 7323,
       "length": 38,
       "value": "\"Got unknown error from server \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7351,
+      "offset": 7360,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 7461,
+      "offset": 7470,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 7465,
+      "offset": 7474,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 7469,
+      "offset": 7478,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7836,
+      "offset": 7845,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 7856,
+      "offset": 7865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 7883,
+      "offset": 7892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 7908,
+      "offset": 7917,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8253,
+      "offset": 8262,
       "length": 69,
       "value": "\"Engine tried opening while connected. Assuming this was a reconnect\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8429,
+      "offset": 8438,
       "length": 11,
       "value": "\"reconnect\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8492,
+      "offset": 8501,
       "length": 33,
       "value": "\"Starting engine. Server: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8524,
+      "offset": 8533,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 8603,
       "length": 13,
       "value": "\"Handshaking\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 8712,
+      "offset": 8721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 8902,
+      "offset": 8911,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9093,
+      "offset": 9102,
       "length": 19,
       "value": "\"http:\/\/localhost\/\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9128,
+      "offset": 9137,
       "length": 19,
       "value": "\"http:\/\/localhost\/\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9326,
+      "offset": 9335,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9459,
+      "offset": 9468,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9501,
+      "offset": 9510,
       "length": 5,
       "value": "\"wss\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9556,
+      "offset": 9565,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9597,
+      "offset": 9606,
       "length": 4,
       "value": "\"ws\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9790,
+      "offset": 9799,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9799,
+      "offset": 9808,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9846,
+      "offset": 9855,
       "length": 24,
       "value": "\"&\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9857,
+      "offset": 9866,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9869,
+      "offset": 9878,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9939,
+      "offset": 9948,
       "length": 21,
       "value": "\"transport=websocket\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 10016,
+      "offset": 10025,
       "length": 25,
       "value": "\"transport=polling&b64=1\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 10112,
+      "offset": 10121,
       "length": 5,
       "value": "\"EIO\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 10282,
+      "offset": 10291,
       "length": 5,
       "value": "\"EIO\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11117,
+      "offset": 11126,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11127,
+      "offset": 11136,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11690,
+      "offset": 11699,
       "length": 25,
       "value": "\"Engine is being closed.\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11863,
+      "offset": 11872,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "Array",
-      "offset": 11895,
+      "offset": 11904,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12665,
+      "offset": 12674,
       "length": 47,
       "value": "\"Outstanding poll when switched to WebSockets,\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12731,
+      "offset": 12740,
       "length": 57,
       "value": "\"we'll probably disconnect soon. You should report this.\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12868,
+      "offset": 12877,
       "length": 25,
       "value": "\"Switching to WebSockets\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12953,
+      "offset": 12962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "Array",
-      "offset": 12987,
+      "offset": 12996,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13026,
+      "offset": 13035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13054,
+      "offset": 13063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13078,
+      "offset": 13087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13539,
+      "offset": 13548,
       "length": 21,
       "value": "\"Flushing probe wait\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13788,
+      "offset": 13797,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 14300,
+      "offset": 14309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 14714,
+      "offset": 14723,
       "length": 27,
       "value": "\"Error parsing open packet\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 14803,
+      "offset": 14812,
       "length": 5,
       "value": "\"sid\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 14857,
+      "offset": 14866,
       "length": 25,
       "value": "\"packet contained no sid\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 14987,
+      "offset": 14996,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 15014,
+      "offset": 15023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15048,
+      "offset": 15057,
       "length": 10,
       "value": "\"upgrades\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15117,
+      "offset": 15126,
       "length": 11,
       "value": "\"websocket\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 15171,
+      "offset": 15180,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 15224,
+      "offset": 15233,
       "length": 5,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 15257,
+      "offset": 15266,
       "length": 6,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 15622,
+      "offset": 15631,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15802,
+      "offset": 15811,
       "length": 9,
       "value": "\"Connect\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 15894,
+      "offset": 15903,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15948,
+      "offset": 15957,
       "length": 8,
       "value": "\"3probe\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 16002,
+      "offset": 16011,
       "length": 55,
       "value": "\"Received probe response, should upgrade to WebSockets\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 16302,
+      "offset": 16311,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 16324,
+      "offset": 16333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "Array",
-      "offset": 16355,
+      "offset": 16364,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 16577,
+      "offset": 16586,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17024,
+      "offset": 17033,
       "length": 14,
       "value": "\"Ping timeout\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17310,
+      "offset": 17319,
       "length": 26,
       "value": "\"Got binary data: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17335,
+      "offset": 17344,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 17461,
+      "offset": 17470,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 17489,
+      "offset": 17498,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17738,
+      "offset": 17747,
       "length": 25,
       "value": "\"Got message: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17762,
+      "offset": 17771,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 17843,
+      "offset": 17852,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17847,
+      "offset": 17856,
       "length": 3,
       "value": "\"b\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17853,
+      "offset": 17862,
       "length": 4,
       "value": "\"b4\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 18015,
+      "offset": 18024,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18561,
+      "offset": 18570,
       "length": 25,
       "value": "\"Got unknown packet type\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18814,
+      "offset": 18823,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18840,
+      "offset": 18849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18868,
+      "offset": 18877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18892,
+      "offset": 18901,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18915,
+      "offset": 18924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18943,
+      "offset": 18952,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19077,
+      "offset": 19086,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 19105,
+      "offset": 19114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 19136,
+      "offset": 19145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19386,
+      "offset": 19395,
       "length": 14,
       "value": "\"Ping timeout\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 19455,
+      "offset": 19464,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19471,
+      "offset": 19480,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "Array",
-      "offset": 19502,
+      "offset": 19511,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20799,
+      "offset": 20808,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20840,
+      "offset": 20849,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21169,
+      "offset": 21178,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21250,
+      "offset": 21259,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 21642,
+      "offset": 21651,
       "length": 35,
       "value": "\"Upgrading transport to WebSockets\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21734,
+      "offset": 21743,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 21767,
+      "offset": 21776,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "Array",
-      "offset": 21798,
+      "offset": 21807,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22706,
+      "offset": 22715,
       "length": 51,
       "value": "\"Writing poll: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22727,
+      "offset": 22736,
       "length": 3,
       "value": "\" has data: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 22754,
+      "offset": 22763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22756,
+      "offset": 22765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23000,
+      "offset": 23009,
       "length": 49,
       "value": "\"Writing ws: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23019,
+      "offset": 23028,
       "length": 3,
       "value": "\" has data: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 23046,
+      "offset": 23055,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23048,
+      "offset": 23057,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23379,
+      "offset": 23388,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23454,
+      "offset": 23463,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23481,
+      "offset": 23490,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23509,
+      "offset": 23518,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23607,
+      "offset": 23616,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23677,
+      "offset": 23686,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23832,
+      "offset": 23841,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23856,
+      "offset": 23865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23934,
+      "offset": 23943,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23951,
+      "offset": 23960,
       "length": 1,
       "value": "\". code=\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23971,
+      "offset": 23980,
       "length": 1,
       "value": "\", type=\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23991,
+      "offset": 24000,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24152,
+      "offset": 24161,
       "length": 21,
       "value": "\"Socket Disconnected\""
     },
@@ -10089,42 +10111,42 @@
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24541,
+      "offset": 24550,
       "length": 34,
       "value": "\"Engine URLSession became invalid\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24583,
+      "offset": 24592,
       "length": 14,
       "value": "\"SocketEngine\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24625,
+      "offset": 24634,
       "length": 34,
       "value": "\"Engine URLSession became invalid\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25019,
+      "offset": 25028,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25178,
+      "offset": 25187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25308,
+      "offset": 25317,
       "length": 5,
       "value": "false"
     },
@@ -11062,35 +11084,35 @@
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WebViewRepresentableProtocolConformance.swift",
       "kind": "BooleanLiteral",
-      "offset": 1663,
+      "offset": 2755,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WebViewRepresentableProtocolConformance.swift",
       "kind": "BooleanLiteral",
-      "offset": 1768,
+      "offset": 2860,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WebViewRepresentableProtocolConformance.swift",
       "kind": "BooleanLiteral",
-      "offset": 1801,
+      "offset": 2893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WebViewRepresentableProtocolConformance.swift",
       "kind": "BooleanLiteral",
-      "offset": 1908,
+      "offset": 3000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WebViewRepresentableProtocolConformance.swift",
       "kind": "BooleanLiteral",
-      "offset": 2367,
+      "offset": 3459,
       "length": 4,
       "value": "true"
     },
@@ -11629,224 +11651,224 @@
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1206,
+      "offset": 1251,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1654,
       "length": 870,
       "value": "\"\/\/ Override the open method of XMLHttpRequest to intercept all requests\nvar originalOpen = XMLHttpRequest.prototype.open;\n\nXMLHttpRequest.prototype.open = function (method, url) {\n  var xhr = this;\n\n  \/\/ Save the original onreadystatechange method\n  var originalOnReadyStateChange = xhr.onreadystatechange;\n\n  \/\/ Override the onreadystatechange method\n  xhr.onreadystatechange = function () {\n    \/\/ Request is complete\n    if (xhr.readyState === 4 && url.includes('\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2127,
+      "offset": 2172,
       "length": 26,
       "value": "\"') && xhr.status == 403) {\n        window.location.replace('smartsupp:\/\/\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2230,
+      "offset": 2275,
       "length": 3,
       "value": "\"');\n    }\n\n    \/\/ Call the original onreadystatechange method\n    if (originalOnReadyStateChange) {\n      originalOnReadyStateChange.apply(this, arguments);\n    }\n  };\n\n  \/\/ Call the original open method\n  originalOpen.apply(this, arguments);\n};\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2722,
+      "offset": 2767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3080,
+      "offset": 3125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3302,
+      "offset": 3347,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3546,
+      "offset": 3591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3879,
+      "offset": 3924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4105,
+      "offset": 4150,
       "length": 82,
       "value": "\"Widget state updated: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 4193,
       "length": 1,
       "value": "\", widget is ready: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4231,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5680,
+      "offset": 5725,
       "length": 22,
       "value": "\"Start loading widget\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5959,
+      "offset": 6004,
       "length": 27,
       "value": "\"Did finish loading widget\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6066,
+      "offset": 6111,
       "length": 17,
       "value": "\"Did load widget\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6209,
+      "offset": 6254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6285,
+      "offset": 6330,
       "length": 20,
       "value": "\"Account is blocked\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6344,
+      "offset": 6389,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6388,
+      "offset": 6433,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6474,
+      "offset": 6519,
       "length": 15,
       "value": "\"smartsupp.vid\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6789,
+      "offset": 6834,
       "length": 147,
       "value": "\"smartsupp('on', '\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6843,
+      "offset": 6888,
       "length": 96,
       "value": "\"', () => { window.location.replace(\"smartsupp:\/\/\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6928,
+      "offset": 6973,
       "length": 1,
       "value": "\"\") } )\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7019,
+      "offset": 7064,
       "length": 39,
       "value": "\"Close action successfully overridden.\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7265,
+      "offset": 7310,
       "length": 31,
       "value": "\"Did get visitorID from widget\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7428,
+      "offset": 7473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7472,
+      "offset": 7517,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7641,
+      "offset": 7686,
       "length": 37,
       "value": "\"$smartsupp.widgets.chat.initialized\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7868,
+      "offset": 7913,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 8763,
+      "offset": 8808,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9051,
+      "offset": 9096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9239,
+      "offset": 9284,
       "length": 4,
       "value": "true"
     },
@@ -12346,6 +12368,20 @@
       "offset": 6410,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/Smartsupp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/Smartsupp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6591,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Dependencies\/Starscream\/Framer\/Framer.swift",
@@ -13735,78 +13771,85 @@
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1603,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "IntegerLiteral",
-      "offset": 1951,
+      "offset": 1986,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 2014,
       "length": 27,
       "value": "\"Unread messages: \""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 2005,
+      "offset": 2040,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2084,
       "length": 20,
       "value": "\"No unread messages\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 2515,
+      "offset": 2550,
       "length": 19,
       "value": "\"Account is online\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 2618,
       "length": 20,
       "value": "\"Account is offline\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 2993,
+      "offset": 3028,
       "length": 21,
       "value": "\"Visitor was blocked\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 3057,
+      "offset": 3092,
       "length": 23,
       "value": "\"Visitor was unblocked\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 5171,
+      "offset": 5206,
       "length": 23,
       "value": "\"Visitor is connecting\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 5245,
+      "offset": 5280,
       "length": 23,
       "value": "\"Visitor was connected\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Core\/SmartsuppState.swift",
       "kind": "StringLiteral",
-      "offset": 5322,
+      "offset": 5357,
       "length": 26,
       "value": "\"Visitor was disconnected\""
     },

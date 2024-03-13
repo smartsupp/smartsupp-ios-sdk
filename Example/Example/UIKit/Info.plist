@@ -19,5 +19,9 @@
 			</array>
 		</dict>
 	</dict>
+    <key>NSUserActivityTypes</key>
+    <array>
+        <string>INSendMessageIntent</string>
+    </array>
 </dict>
 </plist>

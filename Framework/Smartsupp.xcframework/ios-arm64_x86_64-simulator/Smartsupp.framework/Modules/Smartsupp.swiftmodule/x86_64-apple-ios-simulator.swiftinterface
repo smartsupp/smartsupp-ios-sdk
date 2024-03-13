@@ -1,16 +1,18 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Smartsupp
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Smartsupp
+import Combine
 import CommonCrypto
 import DeveloperToolsSupport
 import Dispatch
 import Foundation
+import Intents
 import Network
 @_exported import Smartsupp
 import Swift
 import SwiftUI
 import UIKit
+import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -33,6 +35,12 @@ extension SwiftUI.View {
 }
 public struct SmartsuppOptions {
   public init(apiKey: Swift.String, accountKey: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers open class SmartsuppNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
+  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic open func serviceExtensionTimeWillExpire()
+  @objc override dynamic public init()
+  @objc deinit
 }
 @frozen public enum SmartsuppShowResult {
   case success
@@ -65,6 +73,16 @@ public struct SmartsuppOptions {
   public static func openChatBox(completionHandler: @escaping ShowCallback)
   public static func openChatBox(from viewController: UIKit.UIViewController, completionHandler: @escaping ShowCallback)
   public static func resetUser()
+  @objc deinit
+}
+extension Smartsupp {
+  public static func updateDeviceToken(_ token: Foundation.Data)
+  public static func presentationOptions(forNotification notification: UserNotifications.UNNotification) -> UserNotifications.UNNotificationPresentationOptions?
+  public static func handleNotification(_ notification: UserNotifications.UNNotification) -> Swift.Bool
+}
+public class SmartsuppNotificationContentManager {
+  public init?(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  public func serviceExtensionTimeWillExpire()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SmartsuppState {

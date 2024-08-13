@@ -10712,21 +10712,28 @@
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Resources\/Const.swift",
       "kind": "StringLiteral",
-      "offset": 789,
+      "offset": 767,
+      "length": 16,
+      "value": "\"widgetLanguage\""
+    },
+    {
+      "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Resources\/Const.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
       "length": 11,
       "value": "\"smartsupp\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Resources\/Const.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 895,
       "length": 17,
       "value": "\"messenger_close\""
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Resources\/Const.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 949,
       "length": 17,
       "value": "\"account_blocked\""
     },

@@ -25,6 +25,1523 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SmartsuppLanguage",
+        "printedName": "SmartsuppLanguage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO7defaultyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO7defaultyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "ar",
+            "printedName": "ar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2aryA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2aryA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "az",
+            "printedName": "az",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2azyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2azyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "bg",
+            "printedName": "bg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2bgyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2bgyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "bs",
+            "printedName": "bs",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2bsyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2bsyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "ca",
+            "printedName": "ca",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2cayA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2cayA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "cn",
+            "printedName": "cn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2cnyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2cnyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "cs",
+            "printedName": "cs",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2csyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2csyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "da",
+            "printedName": "da",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2dayA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2dayA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "de",
+            "printedName": "de",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2deyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2deyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "el",
+            "printedName": "el",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2elyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2elyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "en",
+            "printedName": "en",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2enyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2enyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "es",
+            "printedName": "es",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2esyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2esyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "fa",
+            "printedName": "fa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2fayA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2fayA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "fi",
+            "printedName": "fi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2fiyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2fiyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "fil",
+            "printedName": "fil",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO3filyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO3filyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "fr",
+            "printedName": "fr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2fryA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2fryA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "hr",
+            "printedName": "hr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2hryA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2hryA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "hu",
+            "printedName": "hu",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2huyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2huyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "it",
+            "printedName": "it",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2ityA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2ityA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "ka",
+            "printedName": "ka",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2kayA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2kayA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "lv",
+            "printedName": "lv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2lvyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2lvyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "lt",
+            "printedName": "lt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2ltyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2ltyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "nl",
+            "printedName": "nl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2nlyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2nlyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "no",
+            "printedName": "no",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2noyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2noyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "pl",
+            "printedName": "pl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2plyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2plyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "pt",
+            "printedName": "pt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2ptyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2ptyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "ro",
+            "printedName": "ro",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2royA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2royA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "ru",
+            "printedName": "ru",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2ruyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2ruyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "sk",
+            "printedName": "sk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2skyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2skyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "sl",
+            "printedName": "sl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2slyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2slyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "sr",
+            "printedName": "sr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2sryA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2sryA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "sv",
+            "printedName": "sv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2svyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2svyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "tr",
+            "printedName": "tr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2tryA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2tryA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Var",
+            "name": "uk",
+            "printedName": "uk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Smartsupp.SmartsuppLanguage.Type) -> Smartsupp.SmartsuppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Smartsupp.SmartsuppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Smartsupp0A8LanguageO2ukyA2CmF",
+            "mangledName": "$s9Smartsupp0A8LanguageO2ukyA2CmF",
+            "moduleName": "Smartsupp"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Smartsupp.SmartsuppLanguage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Smartsupp0A8LanguageO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9Smartsupp0A8LanguageO8rawValueACSgSS_tcfc",
+            "moduleName": "Smartsupp",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Smartsupp0A8LanguageO8rawValueSSvp",
+            "mangledName": "$s9Smartsupp0A8LanguageO8rawValueSSvp",
+            "moduleName": "Smartsupp",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Smartsupp0A8LanguageO8rawValueSSvg",
+                "mangledName": "$s9Smartsupp0A8LanguageO8rawValueSSvg",
+                "moduleName": "Smartsupp",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Smartsupp.SmartsuppLanguage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartsuppLanguage",
+                    "printedName": "Smartsupp.SmartsuppLanguage",
+                    "usr": "s:9Smartsupp0A8LanguageO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Smartsupp0A8LanguageO8allCasesSayACGvpZ",
+            "mangledName": "$s9Smartsupp0A8LanguageO8allCasesSayACGvpZ",
+            "moduleName": "Smartsupp",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Smartsupp.SmartsuppLanguage]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Smartsupp0A8LanguageO8allCasesSayACGvgZ",
+                "mangledName": "$s9Smartsupp0A8LanguageO8allCasesSayACGvgZ",
+                "moduleName": "Smartsupp",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9Smartsupp0A8LanguageO",
+        "mangledName": "$s9Smartsupp0A8LanguageO",
+        "moduleName": "Smartsupp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Smartsupp.SmartsuppLanguage]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartsuppLanguage",
+                        "printedName": "Smartsupp.SmartsuppLanguage",
+                        "usr": "s:9Smartsupp0A8LanguageO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Smartsupp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -1638,6 +3155,63 @@
             "declKind": "Func",
             "usr": "s:9SmartsuppAAC12identifyUser4name5email5phone9variablesySSSg_A2HSDyS2SGSgtFZ",
             "mangledName": "$s9SmartsuppAAC12identifyUser4name5email5phone9variablesySSSg_A2HSDyS2SGSgtFZ",
+            "moduleName": "Smartsupp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setChatboxLanguage",
+            "printedName": "setChatboxLanguage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartsuppLanguage",
+                "printedName": "Smartsupp.SmartsuppLanguage",
+                "usr": "s:9Smartsupp0A8LanguageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SmartsuppAAC18setChatboxLanguageyyAA0aD0OFZ",
+            "mangledName": "$s9SmartsuppAAC18setChatboxLanguageyyAA0aD0OFZ",
+            "moduleName": "Smartsupp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setChatboxLanguage",
+            "printedName": "setChatboxLanguage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SmartsuppAAC18setChatboxLanguageyySSFZ",
+            "mangledName": "$s9SmartsuppAAC18setChatboxLanguageyySSFZ",
             "moduleName": "Smartsupp",
             "static": true,
             "declAttributes": [
@@ -8151,21 +9725,21 @@
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 429,
+      "offset": 478,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 568,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adam\/PROJECTS\/Smartsupp SDK Internal\/Smartsupp\/Widget\/WidgetViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 612,
       "length": 5,
       "value": "false"
     },

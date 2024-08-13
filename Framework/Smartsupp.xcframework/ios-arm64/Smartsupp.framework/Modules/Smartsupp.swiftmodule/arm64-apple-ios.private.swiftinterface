@@ -19,6 +19,52 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 import zlib
+public enum SmartsuppLanguage : Swift.String, Swift.CaseIterable {
+  case `default`
+  case ar
+  case az
+  case bg
+  case bs
+  case ca
+  case cn
+  case cs
+  case da
+  case de
+  case el
+  case en
+  case es
+  case fa
+  case fi
+  case fil
+  case fr
+  case hr
+  case hu
+  case it
+  case ka
+  case lv
+  case lt
+  case nl
+  case no
+  case pl
+  case pt
+  case ro
+  case ru
+  case sk
+  case sl
+  case sr
+  case sv
+  case tr
+  case uk
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SmartsuppLanguage]
+  public typealias RawValue = Swift.String
+  public static var allCases: [SmartsuppLanguage] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public protocol SmartsuppStateDelegate : AnyObject {
   func smartsuppState(unreadMessages: Swift.Int)
   func smartsuppState(status: AccountStatus)
@@ -70,6 +116,8 @@ public struct SmartsuppOptions {
   final public let state: SmartsuppState
   public static func setup(withOptions options: SmartsuppOptions)
   public static func identifyUser(name: Swift.String? = nil, email: Swift.String? = nil, phone: Swift.String? = nil, variables: [Swift.String : Swift.String]? = nil)
+  public static func setChatboxLanguage(_ language: SmartsuppLanguage)
+  public static func setChatboxLanguage(_ language: Swift.String)
   public static func openChatBox(completionHandler: @escaping ShowCallback)
   public static func openChatBox(from viewController: UIKit.UIViewController, completionHandler: @escaping ShowCallback)
   public static func resetUser()
@@ -113,6 +161,9 @@ public enum AccountStatus : Swift.String, Swift.Decodable {
     get
   }
 }
+extension SmartsuppLanguage : Swift.Equatable {}
+extension SmartsuppLanguage : Swift.Hashable {}
+extension SmartsuppLanguage : Swift.RawRepresentable {}
 extension SmartsuppShowResult : Swift.Sendable {}
 extension AccountStatus : Swift.Equatable {}
 extension AccountStatus : Swift.Hashable {}

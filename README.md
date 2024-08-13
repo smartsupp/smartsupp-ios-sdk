@@ -12,6 +12,7 @@ Welcome to the documentation of the Smartsupp framework, your gateway to seamles
 - Full support for the powerful Smartsupp widget
 - Identify visitor with name, email and phone number, add custom variables
 - Get update on incoming messages, account status
+- Change the language of the widget
 
 ## Compatibility
 
